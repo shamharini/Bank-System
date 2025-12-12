@@ -1,0 +1,199 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #ff6600;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #ff6600;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff9933;
+}
+
+a {
+    display: block;
+    margin-top: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6600;
+}
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+th {
+    background-color: #ff6600;
+    color: white;
+}
+/* General body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Headings */
+h1, h2 {
+    color: #ffcc00;
+    text-shadow: 1px 1px 5px #000;
+}
+
+/* Links */
+a {
+    display: inline-block;
+    margin: 15px 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    transition: 0.3s;
+}
+
+a:hover {
+    background: rgba(255, 204, 0, 0.8);
+    color: #000;
+    transform: scale(1.05);
+}
+
+/* Forms */
+form {
+    display: inline-block;
+    text-align: left;
+    padding: 25px 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    margin-top: 30px;
+}
+
+/* Input fields */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 15px 0;
+    border-radius: 8px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 0 10px #ffcc00;
+}
+
+/* Buttons */
+button {
+    background-color: #ffcc00;
+    color: #000;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff9900;
+    transform: scale(1.05);
+}
+
+/* Flash messages */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+/* Tables */
+table {
+    width: 80%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+    background: rgba(255, 204, 0, 0.8);
+    color: #000;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+        padding: 20px;
+    }
+
+    table {
+        width: 95%;
+    }
+}
